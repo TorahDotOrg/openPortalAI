@@ -1,4 +1,4 @@
-# openPortalAI - An Open AI Portal Framework Built Using Deterministic Pseudocode Prompting
+An Open AI Portal Framework Built Using Deterministic Pseudocode Prompting
 
 
 ## Overview
