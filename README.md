@@ -205,21 +205,3 @@ For questions or support, please contact:
 <img src="https://raw.githubusercontent.com/TorahDotOrg/openPortalAI/main/img/aryeh_golob_contact.jpg" alt="Aryeh Golob Contact" width="83%">
 
 ---
-
-### Notes
-- **Image Width Adjustment**: I replaced the Markdown image syntax (`![Aryeh Golob Contact](...)`) with an HTML `<img>` tag to set the `width` attribute to `50%`, reducing the image size by half as requested. This should make the image display at 50% of its original width in the GitHub `README.md` preview.
-- **Raw URL**: I used the raw GitHub URL (`https://raw.githubusercontent.com/...`) instead of the blob URL, as it’s more reliable for rendering images in Markdown on GitHub.
-- **Project Structure**: I kept the directory as `openPortalAI/` to match the GitHub repo, as noted previously.
-- **Other Sections**: All other sections remain unchanged, preserving the project description, features, and setup instructions.
-
-### Next Steps
-- **Verify Display**: You can update your local `README.md` with this content and push it to GitHub to test the image size:
-  ```bash
-  echo '[Paste the above Markdown content]' > README.md
-  git add README.md
-  git commit -m "Update README.md to reduce contact image width by 50%"
-  git push origin main
-  ```
-  If you need help with authentication (e.g., using a Personal Access Token), let me know!
-- **Further Adjustments**: If the image still appears too wide or you want a different size (e.g., specific pixel width like `300px`), I can tweak the `width` attribute further.
-- **Project Work**: If you’re ready to proceed with other tasks (e.g., fixing `npm audit` vulnerabilities, adding features, or syncing local files with the repo), let me know what’s next!
