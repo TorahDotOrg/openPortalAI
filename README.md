@@ -50,7 +50,7 @@ The current version includes a login system, a basic dashboard with placeholder 
 ## Project Structure
 
 ```
-my-app-framework/
+openPortalAI/
 ├── backend/
 │   ├── index.js                # Express.js server with API endpoints
 │   ├── package.json            # Backend dependencies
@@ -81,13 +81,13 @@ my-app-framework/
 
 1. **Clone the Repository** (or create a new project):
    ```bash
-   git clone <repository-url>
-   cd my-app-framework
+   git clone https://github.com/TorahDotOrg/openPortalAI.git
+   cd openPortalAI
    ```
    If starting fresh, create the directory structure:
    ```bash
-   mkdir my-app-framework
-   cd my-app-framework
+   mkdir openPortalAI
+   cd openPortalAI
    mkdir backend frontend
    ```
 
@@ -200,19 +200,26 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For questions or support, please open an issue on the repository or contact the project maintainers.
+For questions or support, please contact:
+
+<img src="https://raw.githubusercontent.com/TorahDotOrg/openPortalAI/main/img/aryeh_golob_contact.jpg" alt="Aryeh Golob Contact" width="50%">
 
 ---
 
 ### Notes
-- The content you shared matches the Markdown I previously provided, except for the added header: **"An Open AI Portal Framework Built Using Deterministic Pseudocode Prompting"**. I’ve included it above to align with the GitHub version.
-- The project structure references `my-app-framework/` as the root directory, but the GitHub repo uses `openPortalAI/`. I kept `my-app-framework/` in the structure to match our local setup (`/mnt/c/dev/personal/my-app-framework`), but if you prefer `openPortalAI/`, I can update it.
-- The clone command uses `<repository-url>` as a placeholder. For your repo, it’s:
-  ```bash
-  git clone https://github.com/TorahDotOrg/openPortalAI.git
-  ```
+- **Image Width Adjustment**: I replaced the Markdown image syntax (`![Aryeh Golob Contact](...)`) with an HTML `<img>` tag to set the `width` attribute to `50%`, reducing the image size by half as requested. This should make the image display at 50% of its original width in the GitHub `README.md` preview.
+- **Raw URL**: I used the raw GitHub URL (`https://raw.githubusercontent.com/...`) instead of the blob URL, as it’s more reliable for rendering images in Markdown on GitHub.
+- **Project Structure**: I kept the directory as `openPortalAI/` to match the GitHub repo, as noted previously.
+- **Other Sections**: All other sections remain unchanged, preserving the project description, features, and setup instructions.
 
 ### Next Steps
-- If you want me to confirm this content is correctly synced with your local `README.md` or push it to the GitHub repo (`https://github.com/TorahDotOrg/openPortalAI`), I can guide you through the steps (e.g., using a GitHub token or SSH).
-- If you meant for me to compare this with another version or make changes, please clarify.
-- If you’re ready to add new features or proceed with something else (e.g., fixing the `npm audit` vulnerabilities), let me know!
+- **Verify Display**: You can update your local `README.md` with this content and push it to GitHub to test the image size:
+  ```bash
+  echo '[Paste the above Markdown content]' > README.md
+  git add README.md
+  git commit -m "Update README.md to reduce contact image width by 50%"
+  git push origin main
+  ```
+  If you need help with authentication (e.g., using a Personal Access Token), let me know!
+- **Further Adjustments**: If the image still appears too wide or you want a different size (e.g., specific pixel width like `300px`), I can tweak the `width` attribute further.
+- **Project Work**: If you’re ready to proceed with other tasks (e.g., fixing `npm audit` vulnerabilities, adding features, or syncing local files with the repo), let me know what’s next!
