@@ -202,7 +202,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For questions or support, please contact:
 
-<img src="https://raw.githubusercontent.com/TorahDotOrg/openPortalAI/main/img/aryeh_golob_contact.jpg" alt="Aryeh Golob Contact" width="50%">
+<img src="https://raw.githubusercontent.com/TorahDotOrg/openPortalAI/main/img/aryeh_golob_contact.jpg" alt="Aryeh Golob Contact" width="76%">
 
 ---
 
